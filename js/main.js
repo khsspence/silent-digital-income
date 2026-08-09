@@ -27,7 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   setupForm('signupForm', 'signupFeedback', 'Thanks! Please check your inbox for your free guide.');
-  setupForm('contactForm', 'contactFeedback', "Thanks for reaching out! We'll reply within 1-2 business days.");
 
   function setupForm(formId, feedbackId, successMessage) {
     const form = document.getElementById(formId);

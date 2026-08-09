@@ -46,33 +46,30 @@
 
     <section class="section contact-section">
       <div class="container contact-inner">
-        <!-- TODO: point this form at a real backend (e.g. Formspree, Netlify Forms) to receive messages -->
-        <form class="contact-form" id="contactForm" action="#" method="post" novalidate>
+        <div class="contact-form">
           <h2>Send Us a Message</h2>
-          <div class="form-row">
-            <label for="contact-name">Full name <span class="required">*</span></label>
-            <input type="text" id="contact-name" name="name" autocomplete="name" required>
+          <div class="contact-form-embed">
+            <iframe
+                src="https://api.leadconnectorhq.com/widget/form/6jB71xT2ligdywhsU6Bx"
+                style="width:100%;height:100%;border:none;border-radius:8px"
+                id="inline-6jB71xT2ligdywhsU6Bx"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="SDI - Contact Form"
+                data-height="669"
+                data-layout-iframe-id="inline-6jB71xT2ligdywhsU6Bx"
+                data-form-id="6jB71xT2ligdywhsU6Bx"
+                title="SDI - Contact Form"
+            >
+            </iframe>
+            <script src="https://link.msgsndr.com/js/form_embed.js"></script>
           </div>
-          <div class="form-row">
-            <label for="contact-email">Email address <span class="required">*</span></label>
-            <input type="email" id="contact-email" name="email" autocomplete="email" required>
-          </div>
-          <div class="form-row">
-            <label for="contact-topic">What's this about?</label>
-            <select id="contact-topic" name="topic">
-              <option value="general">General question</option>
-              <option value="getting-started">Getting started</option>
-              <option value="guide">The free guide</option>
-              <option value="other">Something else</option>
-            </select>
-          </div>
-          <div class="form-row">
-            <label for="contact-message">Your message <span class="required">*</span></label>
-            <textarea id="contact-message" name="message" rows="5" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-          <p class="form-feedback" id="contactFeedback" role="status" aria-live="polite"></p>
-        </form>
+        </div>
 
         <aside class="contact-info">
           <h2>Other Ways to Reach Us</h2>
