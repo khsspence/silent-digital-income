@@ -391,6 +391,8 @@ input:focus, select:focus, textarea:focus {
 .privacy-contact-block p { margin: 0; }
 .privacy-page .container.narrow h2 { margin-top: 2em; }
 .privacy-page .container.narrow h2:first-of-type { margin-top: 0; }
+.terms-page .container.narrow h2 { margin-top: 2em; }
+.terms-page .container.narrow h2:first-of-type { margin-top: 0; }
 
 /* Footer */
 .site-footer { background: var(--color-ink); color: var(--color-bg-soft); padding-top: 50px; }
