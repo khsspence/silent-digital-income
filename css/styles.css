@@ -382,6 +382,16 @@ input:focus, select:focus, textarea:focus {
 .cta-banner h2 { color: #fff; }
 .cta-banner p { color: var(--color-bg-soft); }
 
+/* Privacy policy */
+.privacy-meta { font-size: .9rem; color: var(--color-ink-soft); margin-bottom: 32px; }
+.privacy-list { list-style: none; display: flex; flex-direction: column; gap: 10px; margin: 0 0 1em; padding: 0; }
+.privacy-list li { padding-left: 1.4em; position: relative; }
+.privacy-list li::before { content: "\2022"; color: var(--color-secondary-dark); font-weight: 700; position: absolute; left: 0; }
+.privacy-contact-block { background: var(--color-bg-soft); border-left: 4px solid var(--color-secondary); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 16px 20px; margin: 16px 0; }
+.privacy-contact-block p { margin: 0; }
+.privacy-page .container.narrow h2 { margin-top: 2em; }
+.privacy-page .container.narrow h2:first-of-type { margin-top: 0; }
+
 /* Footer */
 .site-footer { background: var(--color-ink); color: var(--color-bg-soft); padding-top: 50px; }
 .footer-inner {
