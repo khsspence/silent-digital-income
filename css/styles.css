@@ -136,6 +136,7 @@ button { font-family: inherit; }
 .primary-nav a { color: var(--color-ink); font-weight: 500; }
 .primary-nav a[aria-current="page"] { color: var(--color-primary); }
 .nav-cta { white-space: nowrap; }
+.primary-nav a.nav-cta { color: #fff; }
 .nav-toggle {
   display: none;
   flex-direction: column;
