@@ -268,7 +268,7 @@ button { font-family: inherit; }
 @media (max-width: 860px) {
   .signup-inner { grid-template-columns: 1fr; }
 }
-.signup-form-embed { width: 100%; min-height: 300px; }
+.signup-form-embed { width: 100%; min-height: 220px; }
 .contact-form-embed { width: 100%; min-height: 669px; }
 
 /* Forms */
