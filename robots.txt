@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://go.silent-digital-income.com/sitemap.xml
+Sitemap: https://silent-digital-income.com/sitemap.xml
